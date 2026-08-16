@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: switch-gba-server
+    env: docker
+    dockerhubImagePath: bfriedrichs/switch-gba:release-latest
+    port: 8888
