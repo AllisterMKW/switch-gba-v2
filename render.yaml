@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: switch-gba-server
-    runtime: docker
-    image:
-      url: https://hub.docker.com/r/bfriedrichs/switch-gba
