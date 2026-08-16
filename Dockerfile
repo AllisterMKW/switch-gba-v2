@@ -5,8 +5,8 @@ COPY ./roms /home/roms
 ENV SDL_AUDIODRIVER=dummy
 
 # Your optimized performance settings for a locked 30 FPS
-ENV SCALE=1
-ENV FPS=30
-ENV BITRATE=40
+ENV SCALE=2
+ENV FPS=60
+ENV BITRATE=2000
 
 EXPOSE 8888
