@@ -1,9 +1,9 @@
 FROM bfriedrichs/switch-gba:release-latest
 COPY ./roms /home/roms
 
-# Slashes visual pixel size and data weight for maximum cloud speed
+# Force locked 30 FPS by dropping quality to its absolute limit
 ENV SCALE=1
-ENV BITRATE=200
-ENV FPS=25
+ENV FPS=30
+ENV BITRATE=120
 
 EXPOSE 8888
